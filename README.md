@@ -1,1 +1,3 @@
-# algorithms
+# Algorithms
+
+Repository for algorithms tests.

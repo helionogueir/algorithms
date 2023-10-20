@@ -6,3 +6,8 @@
 var strStr = function(haystack, needle) {
     return haystack.indexOf(needle);
 };
+
+var strStr = function (haystack, needle) {
+    const regex = new RegExp(needle);
+    return haystack.search(regex);
+};

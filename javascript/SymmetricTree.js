@@ -26,4 +26,3 @@ var isSymmetric = function(root) {
   
     return isMirror(root.left, root.right);
   };
-  

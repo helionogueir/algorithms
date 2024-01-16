@@ -10,3 +10,13 @@ var reverseBits = function(n) {
     }
     return ans >>> 0;
 };
+
+/**
+ * @param {number} n - a positive integer
+ * @return {number} - a positive integer
+ */
+var reverseBits = function(n) {
+    const reversedBin = n.toString(2).split('').reverse().join('');
+    const result =  reversedBin.padEnd(32,'0'); 
+    return parseInt(result, 2);
+};

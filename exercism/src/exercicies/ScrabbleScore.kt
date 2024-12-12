@@ -1,3 +1,5 @@
+package exercicies
+
 import java.util.HashMap
 
 object ScrabbleScore {
@@ -31,6 +33,6 @@ object ScrabbleScore {
     }
 
     fun show(){
-        print(ScrabbleScore.scoreWord("abcdefghijklmnopqrstuvwxyz"))
+        print(scoreWord("abcdefghijklmnopqrstuvwxyz"))
     }
 }

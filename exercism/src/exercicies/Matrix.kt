@@ -1,4 +1,4 @@
-/*
+package exercicies/*
 
     val matrixAsString = """
             89 1903   3
